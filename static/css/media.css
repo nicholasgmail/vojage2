@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1150px) {
+    .help-mobile .rel .stars-img {
+        left:38vw
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .help-mobile {
+        padding:0 140px
+    }
+    .help-mobile .rel .mobile-img {
+        margin-top:40px;
+        margin-right: -350px
+    }
+}
+@media screen and (max-width: 1024px){
+	.header-right-mobile{
+		display: block;
+		z-index: 99;
+		position: fixed;
+		top: 0;
+		right: 20px;
+	}
+	#SearchContainer .searchResult{
+		display: block;
+		height: 60px;
+	}
+	.searchDestinationDropdown{
+		display: block;
+		height: 100%;
+	}
+	#searchBar .searchResult .searchInput {
+	    height: 50px;
+	}
+	#searchBar {
+    	margin-top: 305px;
+	}
+	.fullscreen.open {
+		z-index: 11111;
+	}
+	.search-result-dashboard .destination{
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    line-height: 40px;
+	    cursor: pointer;
+	}
+	.search-result-dashboard .destination i {
+	    color: #1d1d1d;
+	    margin: 0 10px 0 20px;
+	}
+	.search-result-dashboard .geographical-area {
+	    display: inline-block;
+	    float: left;
+	    height: 40px;
+	    margin: 2px;
+	    padding: 0 10px;
+	    background: hsla(0,0%,90%,.3);
+	    border-radius: 5px;
+	    cursor: pointer;
+	}
+	.search-result-dashboard .geographical-area i{
+		font-size: 20px;
+    	margin-right: 5px;
+	}
+	.transition-container .DayPicker .CalendarDay button {
+	    background: hsla(0,0%,90%,.3);
+	    color: #1d1d1d;
+	}
+	.searchFilterMobile .dropdown-section-title{
+		border:none!important;
+	}
+	.searchFilterMobile .btn.pink{
+		width: 100%;
+    	margin-top: 20px;
+    	height: 55px;
+    	font-size: 14px;
+	}
+	.max-width{
+		width: 100%!important;
+	}
+	height, body{
+		width: 100%;
+		/*overflow-x: hidden;*/
+	}
+	.help-mobile {
+        padding-bottom:0!important
+    }
+    .help-mobile h1.title {
+        margin:20px auto;
+        text-align: center
+    }
+    .help-mobile .rel {
+        text-align:center;
+        max-height: 380px
+    }
+    .help-mobile .rel img {
+        position:relative;
+        left: inherit!important;
+        margin: 0 auto
+    }
+     .help-mobile .rel .tablet-img {
+        top:20px;
+        margin-left: 150px;
+        margin-left: calc(100px + 2vw)
+    }
+    .help-mobile #stores .app {
+        width:100px;
+        margin-left: 5px
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .help-mobile .rel .tablet-img {
+        max-height:100%;
+        width: auto;
+        margin-top: 20px
+    }
+}
+@media only screen and (min-width: 768px) {
+    .page-help-about .joinus .rel,.page-help-about .whoarewe .rel {
+        margin-left:-40px;
+        margin-right: -40px
+    }
+}
+@media only screen and (max-width: 767px){
+	#searchBar {
+		margin-top: -60px;
+	}
+	#searchBar .searchResult.pin.stacked {
+    	height: 60px;
+	}
+	.messages .react-mapbox-content {
+    	margin-top: 10px;
+	}
+	.saleList .ribbon .ribbon-content .ribbon-txt-4 {
+    	font-size: 14px;
+	}
+	.order-button{
+		display: block;
+		padding-top: 10px;
+	}
+	.list-order {
+	    left: calc(50% - 100px);
+	}
+	.room-modal .RoomDetails__picture {
+	    width: 100%;
+	    min-height: auto;
+	}
+	.room-modal .modal-content{
+		overflow: auto;
+	}
+	.accommodation-modal .Lodging__cardList{
+		overflow: auto;
+    	height: calc(100vh - 220px);
+	}
+	.help-mobile h1.title {
+        margin-bottom:0;
+    }
+    .help-mobile h1.title em {
+        margin-top:20px
+    }
+    .help-mobile .rel .mobile-img {
+        max-height:100%;
+        width: auto;
+    }
+    .help-mobile #text-me-the-app-helpMobile .input-left,.help-mobile #text-me-the-app-helpMobile .input-right {
+        width:100%;
+        margin: 5px auto;
+    }
+    .help-mobile #stores {
+        margin-top:0;
+    }
+    .help-mobile #stores .available {
+        padding:5px 0
+    }
+    .page-help-about #header.not-logged {
+        margin-top:-62px;
+        margin-bottom: 62px
+    }
+    .page-help-about .help-nav__link {
+        padding-left:5px;
+        padding-right: 5px;
+        font-size: 14px
+    }
+    .page-help-about .joinus footer .button {
+        display:block;
+        width: auto
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .help-mobile #stores .app {
+        float:none;
+        display: block;
+        margin: 5px auto;
+        width: 150px
+    }
+    .page-help-about .help-nav__link {
+        font-size:12px
+    }
+}
+
+

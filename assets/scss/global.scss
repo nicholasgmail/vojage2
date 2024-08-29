@@ -1,0 +1,17 @@
+@media (max-width: 374.98px) {
+  #header.logged .logo-container .header-right-mobile a.shortcut {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .messages.dataCollect .header_title, .messages.welcomeQuiz .header_title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+  }
+}
+
+.underlined-text {
+  text-decoration: underline !important;
+}

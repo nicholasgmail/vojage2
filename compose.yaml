@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  voyage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: voyage-frontend
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.3'
+          memory: 128M
+    networks:
+      - api_voyage_network
+    ports:
+      - "3000:3000"
+
+
+networks:
+  api_voyage_network:
+    name: api_voyage_network
+    driver: bridge
+
